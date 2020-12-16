@@ -1,0 +1,22 @@
+13/11 
+- Implemented DrawPixel function as per the tutorial
+
+15/11 
+- Completed the implementation of drawing a single coloured line
+
+18/11 
+- Removed line drawing implementation because it didn't use the Bresenham Algorithm and didn't work in a larger loop.
+- Completed the Bresenham Line Algorithm as per the psuedo code
+
+19/11 
+- Completed the Bresenham Line Algorithm loop
+- Implemented draw line, but it doesn't draw anything for some reason
+
+
+20/11
+- Created a DrawPixel command that looped and created mutiple pixels, however the calculations were off and it only drew 3 pixels and no lines
+- Fixed the DrawPixel command to make lines rather than just single pixels
+- Remade the Bresenham algorithm and included it inside the entry function to flow better and use less jumps
+- Encounted strange occurence when making a loop, the lines start from the opposite side of the screen when they go off the edge
+- Made the program produce hundreds of lines originating from different point, unsure if this meets the spec, will continue to experiment with looping
+
